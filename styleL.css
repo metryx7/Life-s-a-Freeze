@@ -330,9 +330,11 @@ img {
     border-radius: 5px;
   }
 
-  element.style {
-  }
   .announcement-bar {
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction: column;
       background-color: background-color #537344;
       border-bottom: .5px solid #ffffff;
   }
