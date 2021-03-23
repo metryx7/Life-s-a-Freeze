@@ -30,9 +30,9 @@ form{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(30, 64, 31);
+  color: #99caff;
   font-family: verdana;
-  background-color: rgb(235, 235, 235);
+  background-color: #e6f2ff;
   padding-bottom: 5px;
 }
 .brand-title{
@@ -49,7 +49,7 @@ display: flex;
   padding-right: 10px;
 }
 .navbar-links li a{
-  color:#ce71b7(102, 95, 95);
+  color: #;
   text-decoration: none;
   display: block;
   padding: 1rem;
@@ -100,7 +100,7 @@ display: flex;
 
 }
 .btn {
-  color: rgb(255, 121, 197);
+  color: rgb(44, 35, 92);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -120,7 +120,7 @@ display: flex;
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px ;
-  background-color: rgb(30, 64, 31);
+  background-color: rgb(146, 74, 110);
   z-index: 1;
 }
 
@@ -159,7 +159,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #5fa560;
+  background-color: #5f9da5;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -326,8 +326,82 @@ img {
   }
 
   hr.new1 {
-    border: 1px solid rgb(255, 121, 197);
+    border: 1.5px solid #99caff;
     border-radius: 5px;
   }
 
-  
+  element.style {
+  }
+  .announcement-bar {
+      background-color: background-color #537344;
+      border-bottom: .5px solid #ffffff;
+  }
+  .announcement-bar {
+      padding: .1rem;
+      text-align: center;
+  }
+  .announcement-bar {
+      padding: .1rem;
+      text-align: center;
+  }
+  .announcement-bar {
+      padding: .1rem;
+      text-align: center;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  https://media.giphy.com/media/h59iqXVAai6DC/source.gif
+
+  * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(236, 226, 226);
+  background: #e6f2ff;; /* Light Blue see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
